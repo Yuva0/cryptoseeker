@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cryptoseeker/static/css/main.eea20552.css",
+    "main.css": "/cryptoseeker/static/css/main.18d4329d.css",
     "main.js": "/cryptoseeker/static/js/main.8f36f90c.js",
     "index.html": "/cryptoseeker/index.html",
-    "main.eea20552.css.map": "/cryptoseeker/static/css/main.eea20552.css.map",
+    "main.18d4329d.css.map": "/cryptoseeker/static/css/main.18d4329d.css.map",
     "main.8f36f90c.js.map": "/cryptoseeker/static/js/main.8f36f90c.js.map"
   },
   "entrypoints": [
-    "static/css/main.eea20552.css",
+    "static/css/main.18d4329d.css",
     "static/js/main.8f36f90c.js"
   ]
 }
