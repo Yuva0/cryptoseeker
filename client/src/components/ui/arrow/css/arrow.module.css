@@ -1,0 +1,11 @@
+.arrowContainer{
+    width: 24px;
+    height: 24px;
+    border:1px solid #333533;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333533;
+    color: #ffa200;
+}

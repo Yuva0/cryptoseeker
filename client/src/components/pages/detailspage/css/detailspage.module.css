@@ -1,0 +1,67 @@
+.detailsWrapper{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsContainer{
+    margin: 48px 0;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    max-width: 1000px;
+    min-width: 400px;
+    row-gap: 12px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.detailsHeader{
+    text-align: center;
+}
+
+.detailsImage img{
+    width: 160px;
+}
+
+.detailsheader{
+    margin-top: 16px;
+}
+
+.twentyfourhourheader{
+    margin-top:32px;
+    /* text-align: center; */
+}
+
+.redStatus{
+    color: red;
+}
+
+.greenStatus{
+    color:#55a630;
+}
+
+.detailsBackBtn{
+    margin-top: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detailsBackBtn span{
+    padding:4px 12px;
+    background-color: #b7e4c7;
+    border-radius: 8px;
+}
+
+.loadingDiv{
+    margin-top: 64px;
+}
+
+@media only screen and (max-width:500px) {
+    .detailsContainer{
+        width: 90vw;
+        min-width: 0;
+    }
+}

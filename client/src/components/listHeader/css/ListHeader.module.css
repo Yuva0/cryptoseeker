@@ -1,0 +1,72 @@
+.listHeaderContainer{
+    margin-top: 16px;
+    height: 32px;
+    width: 70vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 42px;
+    font-weight: bold;
+    color:#0096c7;
+}
+
+
+.listHeaderImage{
+    flex-basis: 5%;
+    min-width: 40px;
+}
+
+.listHeaderName{
+    flex-basis: 25%;
+    min-width: 100px;
+}
+
+.listHeaderSymbol{
+    flex-basis: 30%;
+    min-width: 80px;
+}
+
+.listHeaderPrice{
+    flex-basis: 20%;
+    min-width: 100px;
+}
+
+.listHeaderPriceChange{
+    flex-basis: 15%;
+    min-width: 60px;
+}
+
+
+.listHeaderArrow{
+    flex-basis: 5%;
+}
+
+@media only screen and (max-width: 1200px){
+    .listHeaderContainer{
+        width:80vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .listHeaderContainer{
+        width:90vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .listHeaderContainer{
+        width:100vw;
+        padding: 0px 12px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .listHeaderSymbol{
+        display: none;
+    }
+    .listHeaderImage{
+        display: none;
+    }
+}

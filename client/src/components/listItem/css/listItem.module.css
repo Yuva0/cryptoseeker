@@ -1,0 +1,95 @@
+.listItemContainer{
+    height:64px;
+    width:70vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0px 42px;
+    border-radius: 100px;
+}
+
+.listItemImage{
+    display: inline-block;
+    height: 100%;
+    padding:18px 0;
+    flex-basis:5%;
+    min-width: 40px;
+}
+
+.listItemName{
+    font-weight: bold;
+    flex-basis: 25%;
+    min-width: 100px;
+}
+
+.listItemSymbol{
+    flex-basis: 30%;
+    min-width: 80px;
+}
+
+.listItemPrice{
+    flex-basis: 20%;
+    min-width: 100px;
+}
+
+.redStatus{
+    color: red;
+}
+
+.greenStatus{
+    color:#55a630;
+}
+
+.listItemPriceChange{
+    flex-basis: 15%;
+    min-width: 60px;
+}
+
+.listItemArrow{
+    flex-basis: 5%;
+}
+
+.listItemImage img{
+    height: 100%;
+}
+
+.listItemContainer:hover{
+    background-color: #fff2b2;
+}
+
+/* .cryptoListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+@media only screen and (max-width: 1200px){
+    .listItemContainer{
+        width:80vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .listItemContainer{
+        width:90vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .listItemContainer{
+        width:100vw;
+        padding: 0px 24px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .listItemSymbol{
+        display: none;
+    }
+    .listItemImage{
+        display: none;
+    }
+}
