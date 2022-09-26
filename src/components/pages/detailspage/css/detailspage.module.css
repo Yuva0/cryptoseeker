@@ -47,6 +47,7 @@
     margin-top: 32px;
     text-align: center;
     cursor: pointer;
+    user-select: none;
 }
 
 .detailsBackBtn span{
